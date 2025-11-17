@@ -5,11 +5,12 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
+#include "Camera/CameraComponent.h"
+#include "EnhancedInputComponent.h"
 #include "TagCharacter.generated.h"
 
 class UInputComponent;
 class USkeletalMeshComponent;
-class UCameraComponent;
 class UInputAction;
 class UInputMappingContext;
 struct FInputActionValue;
