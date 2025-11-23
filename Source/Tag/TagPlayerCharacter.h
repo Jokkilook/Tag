@@ -26,7 +26,7 @@ class TAG_API ATagPlayerCharacter : public ATagCharacter
 	UPROPERTY(VisibleAnywhere, Category = "Battery")
 	float BatteryValue;
 
-	float MaxBatteryValue = 10000.f;
+	float MaxBatteryValue = 10000000.f;
 	float SubtractScale = 100.f;
 	
 	FORCEINLINE void SubtractBatteryValue(float value) { BatteryValue -= value; };
